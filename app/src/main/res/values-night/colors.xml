@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="colorPrimary">#002022</color>
+    <color name="windowBackground">#001719</color>
+    <color name="statusBarColor">#002022</color>
+    <color name="colorBackground">#d0c4c4</color>
+
+    <color name="textColor">@android:color/white</color>
+    <color name="textColorSi">@android:color/holo_orange_light</color>
+
+
+    <color name="descripColorSi">@android:color/holo_orange_light</color>
+    <color name="bulbColor">@android:color/white</color>
+
+    <color name="post_background">#001719</color>
+
+    <color name="textDescription">#C8ECFE</color>
+    <color name="imageBackgroundTint">#006064</color>
+    <color name="fondoCelu">#002022</color>
+    <color name="holo">@android:color/white</color>
+    <color name="toolbal">@drawable/bg_color_night</color>
+    <color name="cardwiew">@drawable/bg_color_vertical_nigth</color>
+
+    <color name="bottonBG">@drawable/bg_color_my_button_dart</color>
+</resources>

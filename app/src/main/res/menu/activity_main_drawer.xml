@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <!--
+        <item
+            android:id="@+id/nav_proveedores"
+            android:icon="@drawable/ic_person"
+            android:title="Proveedores" />
+         -->
+
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_materias"
+            android:icon="@drawable/mapbox_compass_icon"
+            android:title="Materias Primas" />
+        <item
+            android:id="@+id/nav_embarque"
+            android:icon="@drawable/mapbox_info_icon_selected"
+            android:title="Materiales de Embarque" />
+    </group>
+</menu>

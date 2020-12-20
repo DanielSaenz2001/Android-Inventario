@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="pe.edu.upeu.calidadservupeu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <!--
+    <fragment
+        android:id="@+id/nav_proveedores"
+        android:name="pe.edu.upeu.calidadservupeu.ui.proveedor.ProveedorFragment"
+        android:label="Proveedores"
+        tools:layout="@layout/fragment_proveedor" />
+    -->
+
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="pe.edu.upeu.calidadservupeu.ui.producto.ProductoFragment"
+        android:label="Productos"
+        tools:layout="@layout/producto_fragment" />
+    <fragment
+        android:id="@+id/nav_materias"
+        android:name="pe.edu.upeu.calidadservupeu.ui.materiasPrimas.MateriasPrimasFragment"
+        android:label="Materiales"
+        tools:layout="@layout/materias_primas_fragment" />
+    <fragment
+        android:id="@+id/nav_embarque"
+        android:name="pe.edu.upeu.calidadservupeu.ui.materialesEmpaque.MaterialesEmpaqueFragment"
+        android:label="Embarques"
+        tools:layout="@layout/materiales_empaque_fragment" />
+
+
+    </navigation>
